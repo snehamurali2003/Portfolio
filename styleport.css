@@ -1,0 +1,165 @@
+*{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
+
+ nav{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    }
+
+nav img{
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+
+nav ul{
+       display: flex;
+       align-items: center;
+       margin-left: 400px;
+}
+
+nav ul li a{
+
+          color: rgb(225, 225, 225);
+          font-weight: bolder;
+          margin: 20px;
+          text-decoration: none;
+
+}
+
+nav ul li a:hover{
+                   text-shadow:4px 6px 8px rgb(235, 235, 240) ;
+                   color: rgb(206, 252, 1);
+}
+ 
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+ }
+ 
+.over{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.over h1{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.head{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pic{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pic img{
+    width: 400px;
+    height: 500px;
+}
+
+.intro{
+    width: 600px;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h4{
+    font-size: 25px;
+}
+
+.pro{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pro img{
+        width: 350px;
+        height: 200px;
+}
+
+form{
+    width: 500px;
+    margin-left: 500px;
+ }
+ 
+ .input{
+     width: 100%;
+     margin: 10px;
+ }
+ 
+ button{
+    color:black;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    width: 450px;
+    margin-left: 15px;
+ }
+ .cv{
+    background-color: rgb(86, 129, 21);
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 60%;
+    border-radius: 10%;
+}
+/* width */
+::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f7f7f7; 
+ }
+  
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #7f60d5; 
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   background: #040404; 
+ }
+
+.foot{
+       background-color: black;
+       color: aliceblue;
+
+ }
+/* footer */
+
